@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Bagisto'),
+    'name' => env('APP_NAME', 'Gundeep'),
 
     /*
     |--------------------------------------------------------------------------
@@ -26,7 +26,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => env('APP_ENV', 'development'),
 
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +39,7 @@ return [
     |
     */
 
-    'debug' => env('APP_DEBUG', false),
+    'debug' => env('APP_DEBUG', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -225,27 +225,16 @@ return [
         Flynsarmy\DbBladeCompiler\DbBladeCompilerServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
 
-        //Webkul packages
-        Webkul\Theme\Providers\ThemeServiceProvider::class,
-        Webkul\User\Providers\UserServiceProvider::class,
-        Webkul\Admin\Providers\AdminServiceProvider::class,
-        Webkul\Ui\Providers\UiServiceProvider::class,
-        Webkul\Category\Providers\CategoryServiceProvider::class,
-        Webkul\Attribute\Providers\AttributeServiceProvider::class,
-        Webkul\Core\Providers\CoreServiceProvider::class,
-        Webkul\Shop\Providers\ShopServiceProvider::class,
-        Webkul\Customer\Providers\CustomerServiceProvider::class,
-        Webkul\Inventory\Providers\InventoryServiceProvider::class,
-        Webkul\Product\Providers\ProductServiceProvider::class,
-        Webkul\Checkout\Providers\CheckoutServiceProvider::class,
-        Webkul\Shipping\Providers\ShippingServiceProvider::class,
-        Webkul\Payment\Providers\PaymentServiceProvider::class,
-        Webkul\Paypal\Providers\PaypalServiceProvider::class,
-        Webkul\Sales\Providers\SalesServiceProvider::class,
-        Webkul\Tax\Providers\TaxServiceProvider::class,
-        Webkul\API\Providers\APIServiceProvider::class,
-        Webkul\Discount\Providers\DiscountServiceProvider::class,
-        Webkul\CMS\Providers\CMSServiceProvider::class
+        //Orca packages
+        Orca\Theme\Providers\ThemeServiceProvider::class,
+        Orca\User\Providers\UserServiceProvider::class,
+        Orca\Admin\Providers\AdminServiceProvider::class,
+        Orca\Ui\Providers\UiServiceProvider::class,
+        Orca\Category\Providers\CategoryServiceProvider::class,
+        Orca\Core\Providers\CoreServiceProvider::class,
+        Orca\Site\Providers\SiteServiceProvider::class,
+        Orca\Audience\Providers\AudienceServiceProvider::class,
+        Orca\CMS\Providers\CMSServiceProvider::class
     ],
 
     /*
@@ -294,11 +283,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-        'Datagrid' => Webkul\Ui\DataGrid\Facades\DataGrid::class,
-        'ProductGrid' => Webkul\Ui\DataGrid\Facades\ProductGrid::class,
+        'Datagrid' => Orca\Ui\DataGrid\Facades\DataGrid::class,
+        'ProductGrid' => Orca\Ui\DataGrid\Facades\ProductGrid::class,
         'Image' => Intervention\Image\Facades\Image::class,
-        'Cart' => Webkul\Checkout\Facades\Cart::class,
-        'Core' => Webkul\Core\Facades\Core::class,
+        'Core' => Orca\Core\Facades\Core::class,
         'DbView' => Flynsarmy\DbBladeCompiler\Facades\DbView::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,

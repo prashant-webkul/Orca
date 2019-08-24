@@ -4,8 +4,8 @@ return [
     'admin' => [
 
     ],
-    
-    'customer' => [
+
+    'audience' => [
 
     ]
 ];

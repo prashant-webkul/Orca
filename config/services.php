@@ -34,7 +34,7 @@ return [
         'fixer' => [
             'paid_account' => false,
             'key' => env('fixer_api_key'),
-            'class' => 'Webkul\Core\Helpers\Exchange\FixerExchange'
+            'class' => 'Orca\Core\Helpers\Exchange\FixerExchange'
         ]
     ],
 

@@ -1,9 +1,9 @@
 {
-  "name": "bagisto",
-  "description": "An eCommerce ecosystem for All to build and scale your business.",
+  "name": "orca",
+  "description": "A baseplate",
   "main": "",
   "authors": [
-    "Webkul <support@webkul.com>"
+    "Orca"
   ],
   "license": "MIT",
   "keywords": [
@@ -14,5 +14,5 @@
     "store",
     "commerce"
   ],
-  "homepage": "https://github.com/bagisto/bagisto"
+  "homepage": ""
 }

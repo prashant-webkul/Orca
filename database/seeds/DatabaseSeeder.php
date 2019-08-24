@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Webkul\Admin\Database\Seeders\DatabaseSeeder as BagistoDatabaseSeeder;
+use Orca\Admin\Database\Seeders\DatabaseSeeder as BagistoDatabaseSeeder;
 
 class DatabaseSeeder extends Seeder
 {

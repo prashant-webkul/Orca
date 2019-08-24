@@ -15,8 +15,8 @@ class ProductCategoryTest extends DuskTestCase
     */
     public function testGuestAddToCart()
     {
-        $categories = app('Webkul\Category\Repositories\CategoryRepository')->all();
-        $products = app('Webkul\Product\Repositories\ProductRepository')->all();
+        $categories = app('Orca\Category\Repositories\CategoryRepository')->all();
+        $products = app('Orca\Product\Repositories\ProductRepository')->all();
 
         $slugs = array();
 

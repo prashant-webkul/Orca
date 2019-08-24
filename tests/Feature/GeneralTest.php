@@ -10,7 +10,7 @@ use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Webkul\Category\Repositories\CategoryRepository;
+use Orca\Category\Repositories\CategoryRepository;
 
 class GeneralTest extends TestCase
 {
@@ -29,15 +29,15 @@ class GeneralTest extends TestCase
     }
 
     /**
-     * Test for customer login
+     * Test for audience login
      *
      * @return void
      */
-    public function testCustomerLoginPage()
+    public function testAudienceLoginPage()
     {
         config(['app.url' => 'http://prashant.com']);
 
-        $response = $this->get('/customer/login');
+        $response = $this->get('/audience/login');
 
         $response->assertStatus(200);
     }
@@ -59,15 +59,15 @@ class GeneralTest extends TestCase
     }
 
     /**
-     * Test for customer registration page
+     * Test for audience registration page
      *
      * @return void
      */
-    public function testCustomerRegistrationPage()
+    public function testAudienceRegistrationPage()
     {
         // config(['app.url' => 'http://127.0.0.1:8000']);
 
-        $response = $this->get("/customer/register");
+        $response = $this->get("/audience/register");
 
         $response->assertStatus(200);
     }
