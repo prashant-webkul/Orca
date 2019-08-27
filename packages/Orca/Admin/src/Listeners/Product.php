@@ -9,7 +9,7 @@ use Orca\Product\Helpers\Price;
 /**
  * Products Event handler
  *
- * @author    Prashant Singh <>
+ * @author
  *
  */
 class Product {

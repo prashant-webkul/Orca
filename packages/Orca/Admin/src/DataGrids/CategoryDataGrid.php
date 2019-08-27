@@ -8,7 +8,7 @@ use DB;
 /**
  * CategoryDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class CategoryDataGrid extends DataGrid

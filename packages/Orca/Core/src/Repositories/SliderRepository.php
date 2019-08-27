@@ -10,7 +10,7 @@ use Storage;
 /**
  * Slider Reposotory
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class SliderRepository extends Repository

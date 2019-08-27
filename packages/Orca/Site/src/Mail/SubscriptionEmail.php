@@ -9,7 +9,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 /**
  * Subscriber Mail class
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  *
  */

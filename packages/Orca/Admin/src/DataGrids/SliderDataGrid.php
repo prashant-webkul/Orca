@@ -8,7 +8,7 @@ use DB;
 /**
  * SliderDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class SliderDataGrid extends DataGrid

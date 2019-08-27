@@ -8,7 +8,7 @@ use DB;
 /**
  * NewsLetterDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class NewsLetterDataGrid extends DataGrid

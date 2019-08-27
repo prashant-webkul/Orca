@@ -14,7 +14,7 @@ use Orca\Core\Repositories\SubscribersListRepository as Subscription;
 /**
  * Subscription controller
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class SubscriptionController extends Controller

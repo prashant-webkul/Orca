@@ -13,7 +13,7 @@ use Cookie;
 /**
  * Session controller for the user audience
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class SessionController extends Controller

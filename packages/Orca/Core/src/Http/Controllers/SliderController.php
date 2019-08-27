@@ -9,7 +9,7 @@ use Orca\Core\Repositories\SliderRepository as Slider;
 /**
  * Slider controller for managing the slider controls.
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class SliderController extends Controller

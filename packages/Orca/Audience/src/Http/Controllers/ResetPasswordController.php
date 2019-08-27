@@ -13,7 +13,7 @@ use Illuminate\Support\Str;
 /**
  * Reset Password controlller for the audience.
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 

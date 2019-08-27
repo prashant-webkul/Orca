@@ -7,7 +7,7 @@ use Orca\Core\Eloquent\Repository;
 /**
  * Wishlist Repisotory
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
 

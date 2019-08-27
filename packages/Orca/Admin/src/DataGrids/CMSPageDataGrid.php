@@ -8,7 +8,7 @@ use DB;
 /**
  * CMSPagesDataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class CMSPageDataGrid extends DataGrid

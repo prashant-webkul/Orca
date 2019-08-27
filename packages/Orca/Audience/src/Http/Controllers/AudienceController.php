@@ -14,7 +14,7 @@ use Hash;
  * Audience controlller for the audience basically for the tasks of audiences which will be
  * done after audience authentication.
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
 class AudienceController extends Controller

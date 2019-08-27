@@ -12,7 +12,7 @@ use Orca\Product\Repositories\ProductRepository as Product;
 /**
  * Category controller
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class CategoryController extends Controller

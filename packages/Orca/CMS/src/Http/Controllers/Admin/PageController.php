@@ -10,7 +10,7 @@ use Orca\Core\Repositories\LocaleRepository as Locale;
 /**
  * CMS controller
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
  class PageController extends Controller

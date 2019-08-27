@@ -14,8 +14,6 @@ use Auth;
  * behavior for custome and group of
  * audiences.
  *
- * @author    Prashant Singh <>
- *
  */
 class AccountController extends Controller
 {

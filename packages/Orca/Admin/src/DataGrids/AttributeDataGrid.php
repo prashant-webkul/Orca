@@ -8,7 +8,7 @@ use DB;
 /**
  * AttributeDataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class AttributeDataGrid extends DataGrid

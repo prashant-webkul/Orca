@@ -10,7 +10,7 @@ use Orca\Core\Repositories\LocaleRepository as Locale;
 /**
  * CMS Reposotory
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
 

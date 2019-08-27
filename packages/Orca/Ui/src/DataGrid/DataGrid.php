@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 /**
  * DataGrid class
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 abstract class DataGrid

@@ -8,7 +8,7 @@ use DB;
 /**
  * Cart Rule DataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class CartRuleDataGrid extends DataGrid

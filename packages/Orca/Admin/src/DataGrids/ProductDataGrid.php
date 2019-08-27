@@ -8,7 +8,7 @@ use DB;
 /**
  * ProductDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class ProductDataGrid extends DataGrid

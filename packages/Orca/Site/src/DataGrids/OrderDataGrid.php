@@ -8,8 +8,6 @@ use DB;
 /**
  * OrderDataGrid class
  *
- * @author  <rahulshkla.symfont517@orca.com>
- *
  */
 class OrderDataGrid extends DataGrid
 {

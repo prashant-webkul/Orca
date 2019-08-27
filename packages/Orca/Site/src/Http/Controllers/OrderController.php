@@ -13,7 +13,7 @@ use PDF;
  * Audience controlller for the audience basically for the tasks of audiences
  * which will be done after audience authenticastion.
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class OrderController extends Controller

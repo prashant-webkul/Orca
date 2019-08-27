@@ -8,7 +8,7 @@ use DB;
 /**
  * LocalesDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class LocalesDataGrid extends DataGrid

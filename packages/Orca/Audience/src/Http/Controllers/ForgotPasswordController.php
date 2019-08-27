@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Password;
 /**
  * Forgot Password controlller for the audience.
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class ForgotPasswordController extends Controller

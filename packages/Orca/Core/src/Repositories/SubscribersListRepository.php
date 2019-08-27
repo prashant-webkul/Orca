@@ -8,7 +8,7 @@ use Orca\Core\Eloquent\Repository;
 /**
  * SubscribersList Repository
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class SubscribersListRepository extends Repository

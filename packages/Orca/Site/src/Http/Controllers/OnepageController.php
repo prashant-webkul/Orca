@@ -16,7 +16,7 @@ use Orca\Discount\Helpers\Cart\ValidatesDiscount;
  * Chekout controller for the audience and guest for placing order
  *
  * @author   <>
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
 class OnepageController extends Controller

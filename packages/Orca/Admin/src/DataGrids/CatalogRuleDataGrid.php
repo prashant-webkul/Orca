@@ -8,7 +8,7 @@ use DB;
 /**
  * Catalog Rule DataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class CatalogRuleDataGrid extends DataGrid

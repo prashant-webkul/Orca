@@ -16,7 +16,7 @@ use Cart;
  * Cart controller for the audience and guest users for adding and
  * removing the products in the cart.
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
 class CartController extends Controller

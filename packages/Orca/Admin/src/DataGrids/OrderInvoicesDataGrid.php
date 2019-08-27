@@ -8,7 +8,7 @@ use DB;
 /**
  * OrderInvoicesDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class OrderInvoicesDataGrid extends DataGrid

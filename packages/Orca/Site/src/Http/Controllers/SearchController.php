@@ -11,7 +11,7 @@ use Orca\Product\Repositories\SearchRepository as Search;
 /**
  * Search controller
  *
- * @author  Prashant Singh <>
+ * @author   <>
  *
  */
 

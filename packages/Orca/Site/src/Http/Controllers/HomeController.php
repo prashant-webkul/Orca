@@ -8,7 +8,7 @@ use Orca\Core\Repositories\SliderRepository;
 /**
  * Home page controller
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
  class HomeController extends Controller

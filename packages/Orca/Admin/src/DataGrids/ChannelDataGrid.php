@@ -8,7 +8,7 @@ use DB;
 /**
  * ChannelDataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class ChannelDataGrid extends DataGrid

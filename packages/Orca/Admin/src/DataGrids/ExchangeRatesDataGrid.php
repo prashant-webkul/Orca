@@ -8,7 +8,7 @@ use DB;
 /**
  * ExchangeRateDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class ExchangeRatesDataGrid extends DataGrid

@@ -8,7 +8,7 @@ use DB;
 /**
  * AudienceDataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class AudienceDataGrid extends DataGrid

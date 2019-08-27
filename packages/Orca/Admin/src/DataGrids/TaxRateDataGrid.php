@@ -8,7 +8,7 @@ use DB;
 /**
  * TaxRateDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class TaxRateDataGrid extends DataGrid

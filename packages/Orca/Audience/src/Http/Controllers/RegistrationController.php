@@ -15,7 +15,7 @@ use Cookie;
 /**
  * Registration controller
  *
- * @author    Prashant Singh <>
+ * @author     <>
  *
  */
 class RegistrationController extends Controller

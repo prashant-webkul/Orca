@@ -8,7 +8,7 @@ use DB;
 /**
  * CurrencyDataGrid class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class CurrencyDataGrid extends DataGrid

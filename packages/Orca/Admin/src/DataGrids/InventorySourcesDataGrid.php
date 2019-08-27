@@ -8,7 +8,7 @@ use DB;
 /**
  * InventorySourcesDataGrid Class
  *
- * @author Prashant Singh <>
+ *  <>
  *
  */
 class InventorySourcesDataGrid extends DataGrid
